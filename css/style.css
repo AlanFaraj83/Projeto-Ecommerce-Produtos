@@ -18,7 +18,8 @@
 }
 
 img {
-    width: 100%;
+    width: 840px;
+    height: 840px;
 
 }
 
@@ -85,6 +86,15 @@ header {
     margin-top: 2rem;
 }
 
+.cart-box {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
 .section-title {
     font-size: 1.5rem;
     font-weight: 600;
@@ -114,8 +124,8 @@ header {
 }
 
 .product-img {
-    width: 100%;
-    height: auto;
+    width: 840px;
+    height: 840px;
     margin-bottom: 0.5rem;
 }
 
