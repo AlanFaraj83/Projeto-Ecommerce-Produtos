@@ -75,7 +75,7 @@ header {
 .cart {
     position: fixed;
     top: 0;
-    right: 0; /* Se colocassa -100% o cart funcionaria do mesmo jeito */
+    right: -100%; /* Se colocassa -100% o cart funciona */
     width: 360;
     min-height: 100vh;
     padding: 20px;
