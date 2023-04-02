@@ -75,7 +75,7 @@ header {
 .cart {
     position: fixed;
     top: 0;
-    right: -100%; /* Se colocassa -100% o cart funciona */
+    right: -100%; 
     width: 360;
     min-height: 100vh;
     padding: 20px;
@@ -250,3 +250,4 @@ header {
 .add-cart:hover {
     background-color: var(--text-color2);
 }
+
