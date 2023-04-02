@@ -148,6 +148,24 @@ header {
     font-weight: 600;
 }
 
+.total-price {
+    margin-left: 0.5rem;
+
+}
+
+.btn-buy {
+    display: flex;
+    margin: 1.5rem auto 0 auto; 
+    padding: 12px 20px;
+    border: none;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
 .shop {
     margin-top: 2rem;
 }
