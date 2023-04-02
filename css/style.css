@@ -15,6 +15,7 @@
     --main-color: #fd4646;
     --text-color: #171427;
     --bg-color:   #fff;
+    --text-color2: #00008B;
 }
 
 img {
@@ -136,6 +137,10 @@ header {
     cursor: pointer;
 }
 
+.cart-remove:hover {
+    color: var(--text-color2);
+}
+
 .total {
     display: flex;
     justify-content: flex-end;
@@ -163,6 +168,24 @@ header {
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+}
+
+.btn-buy:hover {
+    background-color: var(--text-color2);
+}
+
+#close-cart {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    cursor: pointer;
+
+}
+
+#close-cart:hover {
+    color: var(--text-color2);
 }
 
 
@@ -216,5 +239,5 @@ header {
 }
 
 .add-cart:hover {
-    background-color: hsl(249, 32%, 38%);
+    background-color: var(--text-color2);
 }
