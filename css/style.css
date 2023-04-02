@@ -66,12 +66,16 @@ header {
     cursor: pointer;
 }
 
+#cart-icon:hover {
+    color: var(--text-color2);
+}
+
 /* Cart */
 
 .cart {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0; /* Se colocassa -100% o cart funcionaria do mesmo jeito */
     width: 360;
     min-height: 100vh;
     padding: 20px;
